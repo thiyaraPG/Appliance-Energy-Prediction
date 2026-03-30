@@ -132,7 +132,7 @@ def select_features_with_corr_and_rfe(X_train_full, y_train, X_test_full, top_n_
 
     return selected_features, X_train, X_test
 
-def save_selected_features_data(df_clean, selected_features, output_path="processed/selected_features_data.csv"):
+def save_selected_features_data(df_clean, selected_features, output_path="../data/processed/selected_features_data.csv"):
     """
     Save dataset with date, target, and final selected features.
     """

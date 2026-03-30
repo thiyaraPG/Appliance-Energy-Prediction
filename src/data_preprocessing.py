@@ -155,7 +155,7 @@ def scale_data(X_train, X_test, X_train_full, X_test_full, y_train, y_test):
         y_test_scaled,
     )
 
-def save_clean_data(df_clean, output_path="processed/energy_data_clean.csv"):
+def save_clean_data(df_clean, output_path="../data/processed/energy_data_clean.csv"):
     """
     Save cleaned dataset to CSV.
     """
@@ -164,7 +164,7 @@ def save_clean_data(df_clean, output_path="processed/energy_data_clean.csv"):
     print(f"Saved: {output_path}")
 
 
-def save_train_test_data(train_df, test_df, train_path="processed/train_data.csv", test_path="processed/test_data.csv"):
+def save_train_test_data(train_df, test_df, train_path="../data/processed/train_data.csv", test_path="../data/processed/test_data.csv"):
     """
     Save train and test datasets to CSV.
     """
