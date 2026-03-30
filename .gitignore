@@ -31,9 +31,9 @@ htmlcov/
 *.log
 
 # Model artifacts
-models/*.h5
-models/*.keras
-models/*.pkl
+# models/*.h5
+# models/*.keras
+# models/*.pkl
 
 # Processed data outputs
 data/processed/*.csv
